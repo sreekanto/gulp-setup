@@ -1,0 +1,32 @@
+{
+  "name": "gulp-setup",
+  "version": "1.0.0",
+  "description": "This is use for front end development project using gulp.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp pug gulp sass gulp js gulp image gulp"
+  },
+  "keywords": [
+    "gulp",
+    "sass",
+    "pug",
+    "es6"
+  ],
+  "author": "Sreekanto Mondal",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-minify": "^3.1.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.1.0"
+  }
+}

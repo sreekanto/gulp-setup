@@ -1,0 +1,15 @@
+body{
+	font: {
+		size: 1rem;
+		weight: normal;
+	}
+	transition-property: background;
+	transition-timing-function: linear;
+	color: #860;
+	background: rgba(#cccccc, 0.5);
+	padding: 0;
+	margin: 0;
+	h1{
+		font-size: 3rem; 
+	}
+}
